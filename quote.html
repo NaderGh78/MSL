@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hello To Our Website." />
+    <meta name="keywords" content="container, shipping, company, global, service" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSL-Quote</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo final .png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsiveStyle.css">
+    <script defer src="js/all.js"></script>
+</head>
+
+<body id="quote">
+    <!-- MAIN WRAPPER ============================================= -->
+    <div id="main-wrapper" class="clearfix">
+        <!-- HEADER START============================================= -->
+        <header id="header" class="clearfix">
+            <div class="overlay"></div>
+            <!-- NAV START -->
+            <div class="container-fluid my_full_container">
+                <div class="row d-flex align-items-center">
+                    <!-- CUSTOMMENU START-->
+                    <div class="customMenu">
+                        <!-- NAVBAR STAT-->
+                        <nav class="navbar bg-light navbar-light navbar-expand-lg p-0">
+                            <div class="container p-0">
+                                <a href="index.html" class="navbar-brand"><img src="img/logo final .png" alt="logo"></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarResponsive" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon">
+                                        <i class="icofont-navigation-menu"></i>
+                                    </span>
+                                </button>
+                                <!-- COLLAPSE NAVBAR COLLAPSE START -->
+                                <div class="collapse navbar-collapse my_collapse" id="navbarResponsive">
+                                    <ul class="navbar-nav ml-auto my_ul">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about_us.html">about us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="services.html">services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">contact us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="quote.html">get a quote</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- \ COLLAPSE NAVBAR COLLAPSE END -->
+                            </div>
+                            <!-- \ CONTAINER END -->
+                        </nav>
+                        <!-- \ NAVBAR END -->
+                    </div>
+                    <!-- \CUSTOMMENU END-->
+                </div>
+                <!-- \ ROW END -->
+            </div>
+            <!-- NAV END -->
+        </header>
+        <!-- \ HEADER END -->
+
+        <!-- CONTENT START ============================================= -->
+        <section id="content" class="clearfix">
+            <!-- FEATURES START -->
+            <div class="features wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center w-100">
+                            <h2 class="custom_heading text-uppercase">quote</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="get_text">
+                                <p style="font-size: 16px;">
+                                    We get you a better quote
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- MAIN FORM SECTION START -->
+                            <div class="main_form_section">
+                                <form novalidate id="myform2" class="wow bounceInLeft">
+                                    <div class="form-group noPadding">
+                                        <input type="text" class="form-control username" id="username"
+                                            placeholder="Name">
+                                        <!--error msg -->
+                                        <span class="error-msg user-error"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <span class="error-msg email-error"></span>
+                                    </div>
+                                    <!-- <div class="col-12 col-md-6 form-group noPadding pr-0"> 
+                                            <select class="form-control selectpicker myDropDown" id="countries">
+                                            </select>
+                                    </div> -->
+                                    <div class="col-12 form-group p-0 noPadding" style="margin-bottom: 0;">
+                                        <input id="phone" name="phone" type="tel" class="form-control" placeholder="  ">
+                                        <div class="phone_err" style="height: 23px;">
+                                            <span id="valid-msg" class="hide"></span>
+                                            <span id="error-msg" class="hide"></span>
+                                        </div>
+                                        <span class="error-msg phone-error" style="bottom: 0;"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control text_msg" id="text_msg" rows="6"
+                                            placeholder="Message"></textarea>
+                                        <span class="error-msg text-error"></span>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mybtn" id="submit">Submit</button>
+                                </form>
+                            </div>
+                            <!-- \ MAIN FORM SECTION END -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img_box wow bounceInRight"
+                                style="visibility: visible; animation-name: bounceInRight;">
+                                <img src="./img/quote_bg.png" alt="">
+                            </div>
+                        </div>
+                        <!-- \ img_box END -->
+                    </div>
+                    <!-- \ ROW END -->
+                </div>
+            </div>
+            <!-- \ FEATURES END -->
+        </section>
+        <!-- \ CONTENT END -->
+
+        <!-- FOOTER START ============================================= -->
+        <footer id="footer" class="wrapper clearfix">
+            <div class="overlay"></div>
+            <!-- FOOTER CONTENT START -->
+            <div class="footer_content">
+                <div class="container">
+                    <div class="row">
+                        <!-- FIRST FOOTER CONTENT -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer_about">
+                                <h3 class="text-capitalize">company</h3>
+                                <ul class="list-group list-group-flush mb-2">
+                                    <li class="list-group-item text-capitalize">home</li>
+                                    <li class="list-group-item text-capitalize">about us</li>
+                                    <li class="list-group-item text-capitalize">services</li>
+                                    <li class="list-group-item text-capitalize">contact us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- SECOND FOOTER CONTENT -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer_about">
+                                <h3 class="text-capitalize">reach us</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <i class="fas fa-map-marker-alt mr-2"></i>
+                                        <a href="http://maps.google.com/maps?q=Saifi Village, Charles Debbas Street, 164 Building"
+                                            target="_blank">Downtown,Saifi Village,Beirut,Lebanon.</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icofont-ui-dial-phone mr-2"></i>
+                                        <a href="tel:+9611990199">+961 1990199</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <i class="icofont-brand-whatsapp mr-2"></i>
+                                        <a href="https://wa.me/9613666716" class="whatsapp_float" target="_blank">+961 3
+                                            666716</a>
+                                    </li>
+                                    <!-- <li class="list-group-item"><i class="fab fa-whatsapp-square mr-2" style="font-size: 30px;vertical-align: bottom;color: #4FCE5D;"></i></li> -->
+                                    <li class="list-group-item">
+                                        <i class="far fa-envelope mr-2"></i>
+                                        <a href="mailto:lb@msl.network">lb@msl.network</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- THIRD FOOTER CONTENT -->
+                        <div class="col-lg-4 col-md-12">
+                            <div class="footer_about">
+                                <img src="./img/logo.png" alt="footer-logo">
+                                <p class="mt-5 text-center text-white text-capitalize">
+                                    find us on social media
+                                </p>
+                                <div class="sl_media">
+                                    <ul class="list-unstyled social_icons">
+                                        <li>
+                                            <a href=" " style="background-color: #3b5998;">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=" " style="background-color:  #1da1f2;">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=" " style="background-color:  #c32aa3;">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FOOTER CONTENT END -->
+
+            <!-- COPYRIGHT START -->
+            <div class="copyright text-center">
+                <p class="m-0 text-capitalize">Copyright &copy; mediterranean sea lines. 2021. All rights reserved. </p>
+            </div>
+            <!-- \COPYRIGHT END -->
+
+        </footer>
+        <!-- \ FOOTER END -->
+    </div>
+    <!-- MAIN WRAPPER END -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/intlTelInput-jquery.min.js"></script>
+    <script src="js/intlTelInput.min.js"></script>
+
+    <!-- internaltional input and flags validation -->
+    <script>
+        var input = document.querySelector("#phone"),
+            errorMsg = document.querySelector("#error-msg"),
+            bool_err = false,
+            validMsg = document.querySelector("#valid-msg");
+
+        // here, the index maps to the error code returned from getValidationError - see readme
+        var errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
+
+        // initialise plugin
+        var iti = window.intlTelInput(input, {
+            excludeCountries: [],
+            initialCountry: "LB",
+            excludeCountries: ["IL"],
+            utilsScript: "js/utils.js"
+        });
+
+        var reset = function () {
+            input.classList.remove("error");
+            errorMsg.innerHTML = "";
+            errorMsg.classList.add("hide");
+            validMsg.classList.add("hide");
+        };
+
+        // on blur: validate
+        input.addEventListener('blur', function () {
+
+            reset();
+            if (input.value.trim()) {
+                if (iti.isValidNumber()) {
+
+                    validMsg.classList.remove("hide");
+                    bool_err = false;
+                    //console.log(boolean_err);
+
+                } else {
+                    input.classList.add("error");
+                    var errorCode = iti.getValidationError();
+                    errorMsg.innerHTML = errorMap[errorCode];
+                    errorMsg.classList.remove("hide");
+                    bool_err = true;
+                    //console.log(boolean_err);
+                }
+
+            }
+        });
+
+        // on keyup / change flag: reset
+        input.addEventListener('change', reset);
+        input.addEventListener('keyup', reset);
+
+    </script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/form_validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
